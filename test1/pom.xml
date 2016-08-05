@@ -9,6 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<dependencies>
 
+		<!-- FileUtils -->
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -17,6 +18,7 @@
 		</dependency>
 
 
+		<!-- Dom4j -->
 		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
 		<dependency>
 			<groupId>dom4j</groupId>
@@ -24,6 +26,8 @@
 			<version>1.6.1</version>
 		</dependency>
 
+
+		<!-- Gson___JSON -->
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -77,6 +81,9 @@
 		</dependency>
 
 
+
+
+		<!-- HTTPCILENT -->
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -87,16 +94,5 @@
 
 
 
-
-
-
-
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 </project>
